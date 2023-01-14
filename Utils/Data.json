@@ -1,0 +1,83 @@
+{
+  "button": [
+    {
+      "btnName": "The Crime or Incident",
+      "path": "crimeIncidentPage"
+    },
+    {
+      "btnName": "The person(s) responsible for the Crime",
+      "path": "CrimeResponsiblePage"
+    },
+    {
+      "btnName": "Extra Info",
+      "path": "CrimeExtraInfoPage"
+    }
+  ],
+
+  "termsConditions": [
+    {
+      "title": "Who we are and how to contact us",
+      "content": "This site is owned and operated by a YouGov plc group company (“we, us, our”). YouGov plc is a company registered in England and Wales with company number 03607311 whose registered office is at 50 Featherstone Street, London, EC1Y 8RT, United Kingdom ."
+    },
+    {
+      "title": "By using our site you accept these Terms",
+      "content": "We require all visitors to our sites adhere to these Terms. By using our sites, you acknowledge and confirm that you accept these Terms and that you agree to comply with them at all times while using our sites.If you do not agree to these Terms, you must not use our sites."
+    },
+    {
+      "title": "How you may use content on our sites",
+      "content": "How you may use content on our sites We are the owner or the licensee of all intellectual property rights in our site and the content therein, including, but not limited to, text, graphics, audio, video, photographs, software, inventions, surveys, logos or other materials (“Materials”). The Materials are the intellectual property of, or are authorised for use by, YouGov and its licensors, business partners and affiliates, including all trademarks, service marks, copyrights, patents, database rights and trade secrets contained therein. Those works are protected by copyright laws and treaties around the world. All such rights are reserved.You may print off one copy, and may download extracts, of any page(s) from our site for your personal and non-commercial use and you may draw the attention of others within your organisation to content posted on our site. You may not use YouGov content or"
+    },
+    {
+      "title": "Information provided by you",
+      "content": "You should not provide any confidential or proprietary information to us via our site. Any information provided by you, including but not limited to questions, comments, suggestions or the like shall be deemed non-confidential and shall become the property of us. Furthermore, you agree to grant us an unrestricted, irrevocable license to use, reproduce, display, modify, and distribute any such information provided to us through your use of our site.We expressly disclaim any and all responsibility, liability and accountability for any content or other material posted on our site by any user or visitor. You are solely responsible for any material or information posted, published, submitted, or otherwise made available on our site by you. Any entries written by visitors or other uses of our site does not constitute an endorsement by us of any material or information posted on our site by third parties."
+    },
+    {
+      "title": "Unauthorised use",
+      "content": "You may not use our sites: (i) in any way that breaches any applicable local, national, or international law or regulation, or causes us to breach any applicable law or regulation; (ii) to transmit or submit any harmful, threatening, abusive, harassing, defamatory, deceptive, fraudulent, obscene, indecent, vulgar, lewd, violent, hateful or otherwise objectionable content or material; (iii) to post or submit any unsolicited advertising, promotional materials, or spam; (iv) to stalk, bully or harass any user or visitor to our site; or, (v) for any other improper or immoral purpose.We do not authorize you to incorporate any content from our site in any commercial document or website, or in any material sold or made available for profit without our written consent."
+    }
+  ],
+  "privacyPolicy": [
+    {
+      "title": "Who we are and how to contact us",
+      "content": "This site is owned and operated by a YouGov plc group company (“we, us, our”). YouGov plc is a company registered in England and Wales with company number 03607311 whose registered office is at 50 Featherstone Street, London, EC1Y 8RT, United Kingdom ."
+    },
+    {
+      "title": "By using our site you accept these Terms",
+      "content": "We require all visitors to our sites adhere to these Terms. By using our sites, you acknowledge and confirm that you accept these Terms and that you agree to comply with them at all times while using our sites.If you do not agree to these Terms, you must not use our sites."
+    },
+    {
+      "title": "How you may use content on our sites",
+      "content": "How you may use content on our sites We are the owner or the licensee of all intellectual property rights in our site and the content therein, including, but not limited to, text, graphics, audio, video, photographs, software, inventions, surveys, logos or other materials (“Materials”). The Materials are the intellectual property of, or are authorised for use by, YouGov and its licensors, business partners and affiliates, including all trademarks, service marks, copyrights, patents, database rights and trade secrets contained therein. Those works are protected by copyright laws and treaties around the world. All such rights are reserved.You may print off one copy, and may download extracts, of any page(s) from our site for your personal and non-commercial use and you may draw the attention of others within your organisation to content posted on our site. You may not use YouGov content or"
+    },
+    {
+      "title": "Information provided by you",
+      "content": "You should not provide any confidential or proprietary information to us via our site. Any information provided by you, including but not limited to questions, comments, suggestions or the like shall be deemed non-confidential and shall become the property of us. Furthermore, you agree to grant us an unrestricted, irrevocable license to use, reproduce, display, modify, and distribute any such information provided to us through your use of our site.We expressly disclaim any and all responsibility, liability and accountability for any content or other material posted on our site by any user or visitor. You are solely responsible for any material or information posted, published, submitted, or otherwise made available on our site by you. Any entries written by visitors or other uses of our site does not constitute an endorsement by us of any material or information posted on our site by third parties."
+    },
+    {
+      "title": "Unauthorised use",
+      "content": "You may not use our sites: (i) in any way that breaches any applicable local, national, or international law or regulation, or causes us to breach any applicable law or regulation; (ii) to transmit or submit any harmful, threatening, abusive, harassing, defamatory, deceptive, fraudulent, obscene, indecent, vulgar, lewd, violent, hateful or otherwise objectionable content or material; (iii) to post or submit any unsolicited advertising, promotional materials, or spam; (iv) to stalk, bully or harass any user or visitor to our site; or, (v) for any other improper or immoral purpose.We do not authorize you to incorporate any content from our site in any commercial document or website, or in any material sold or made available for profit without our written consent."
+    }
+  ],
+  "cookiePolicy": [
+    {
+      "title": "Who we are and how to contact us",
+      "content": "This site is owned and operated by a YouGov plc group company (“we, us, our”). YouGov plc is a company registered in England and Wales with company number 03607311 whose registered office is at 50 Featherstone Street, London, EC1Y 8RT, United Kingdom ."
+    },
+    {
+      "title": "By using our site you accept these Terms",
+      "content": "We require all visitors to our sites adhere to these Terms. By using our sites, you acknowledge and confirm that you accept these Terms and that you agree to comply with them at all times while using our sites.If you do not agree to these Terms, you must not use our sites."
+    },
+    {
+      "title": "How you may use content on our sites",
+      "content": "How you may use content on our sites We are the owner or the licensee of all intellectual property rights in our site and the content therein, including, but not limited to, text, graphics, audio, video, photographs, software, inventions, surveys, logos or other materials (“Materials”). The Materials are the intellectual property of, or are authorised for use by, YouGov and its licensors, business partners and affiliates, including all trademarks, service marks, copyrights, patents, database rights and trade secrets contained therein. Those works are protected by copyright laws and treaties around the world. All such rights are reserved.You may print off one copy, and may download extracts, of any page(s) from our site for your personal and non-commercial use and you may draw the attention of others within your organisation to content posted on our site. You may not use YouGov content or"
+    },
+    {
+      "title": "Information provided by you",
+      "content": "You should not provide any confidential or proprietary information to us via our site. Any information provided by you, including but not limited to questions, comments, suggestions or the like shall be deemed non-confidential and shall become the property of us. Furthermore, you agree to grant us an unrestricted, irrevocable license to use, reproduce, display, modify, and distribute any such information provided to us through your use of our site.We expressly disclaim any and all responsibility, liability and accountability for any content or other material posted on our site by any user or visitor. You are solely responsible for any material or information posted, published, submitted, or otherwise made available on our site by you. Any entries written by visitors or other uses of our site does not constitute an endorsement by us of any material or information posted on our site by third parties."
+    },
+    {
+      "title": "Unauthorised use",
+      "content": "You may not use our sites: (i) in any way that breaches any applicable local, national, or international law or regulation, or causes us to breach any applicable law or regulation; (ii) to transmit or submit any harmful, threatening, abusive, harassing, defamatory, deceptive, fraudulent, obscene, indecent, vulgar, lewd, violent, hateful or otherwise objectionable content or material; (iii) to post or submit any unsolicited advertising, promotional materials, or spam; (iv) to stalk, bully or harass any user or visitor to our site; or, (v) for any other improper or immoral purpose. We do not authorize you to incorporate any content from our site in any commercial document or website, or in any material sold or made available for profit without our written consent."
+    }
+  ]
+}

@@ -1,0 +1,1057 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+
+/* landing page */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* pointer-events: none; */
+}
+
+img {
+  /* width: unset !important; */
+  max-width: unset;
+  height: auto;
+}
+.phn_img {
+  display: unset;
+  width: 87px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.section__gap {
+  margin-bottom: 60px;
+}
+.section__gap2 {
+  margin-bottom: 50px;
+}
+.section__gap3 {
+  margin-bottom: 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+
+/*===== heading list section css start here===== */
+.heading__list {
+  margin: 55px 0 35px;
+}
+
+.list__inner ul {
+  width: 100%;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.heading__list ul::-webkit-scrollbar {
+  display: none;
+}
+
+.heading__list ul li {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.list__inner ul li {
+  margin-right: 56px;
+}
+
+.list__inner ul li:last-child {
+  margin-right: 0;
+}
+
+.report__boxes {
+  /* margin-bottom: 50px; */
+}
+
+.report__box,
+.live__box {
+  padding: 24px 25px;
+  color: #fff;
+  background: radial-gradient(100% 100% at 50% 0%, #ef4634 0%, #3560ad 100%);
+  min-height: 286px;
+  position: relative;
+}
+
+.report__box.box__right {
+  background: radial-gradient(100% 100% at 50% 0%, #ff3189 0%, #ff402a 100%);
+}
+
+.report__box .top span,
+.live__box .top span {
+  font-size: 16px;
+  font-weight: 400;
+}
+/* .report__box p{
+line-height: 43px;
+} */
+
+.report__box .top span:last-child,
+.live__box .top span:last-child {
+  font-weight: bold;
+  position: relative;
+  padding-right: 25px;
+}
+
+.report__box .top span:last-child::before,
+.live__box .top span:last-child::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 14px;
+  width: 14px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.report__box h3 {
+  font-size: 33px;
+  line-height: 43px;
+  font-weight: 700;
+}
+
+.report__box h4,
+.report__box h3 {
+  margin: 14px 0;
+}
+
+.report__box h4,
+.live__box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.report__box a,
+.live__box a {
+  position: absolute;
+  width: 100%;
+  max-width: 580px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 24px;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #fff;
+  border-radius: 50px;
+  font-size: 22px;
+  font-weight: 700;
+  /* color: #ef4634; */
+}
+
+.politics__section {
+  margin: 50px 0;
+}
+
+.politics > img {
+  width: 100%;
+  height: 286px;
+}
+
+.politics .content {
+  padding: 30px;
+  box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
+    0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+  border: 1.5px solid #ebebeb;
+}
+
+.politics .content span,
+.govt__box span,
+.article__box span {
+  font-size: 16px;
+  color: #808da5;
+  margin-top: 30px;
+  display: block;
+}
+
+.politics .content span:first-child {
+  margin: 0 0 0 0 !important;
+}
+
+/* .politics .content span{
+  margin: 0 !important;
+} */
+
+.politics .content h3 {
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.politics .content span {
+  margin: 11px 0;
+}
+
+.politics .content p {
+  font-size: 20px;
+  color: #4b4b4b;
+  /* margin-bottom: 23px; */
+}
+
+.live__box {
+  background: #3560ad;
+}
+
+.live__box h4 {
+  font-size: 20px;
+  margin-top: 14px;
+}
+
+.live__box a {
+  width: 100%;
+  max-width: 363px;
+  color: #3560ad;
+}
+
+.approbe__box span {
+  position: relative;
+  padding-left: 30px;
+}
+
+.approbe__box span::before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #31caa8;
+}
+
+.approbe__box span:nth-child(2)::before {
+  background-color: #ef4634;
+}
+
+.govt__box,
+.article__box {
+  padding: 24px 25px;
+  box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
+    0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+  border: 1.5px solid #ebebeb;
+  /* margin-bottom: 20px; */
+}
+
+.govt__box span {
+  margin-top: 0 !important;
+}
+.article__box span {
+  margin-top: 14px;
+}
+
+.govt__box h4,
+.article__box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 4px 0;
+  line-height: 26px;
+}
+
+.govt__box img {
+  margin-top: 54px;
+  width: 100%;
+}
+
+/* .tracker__section{
+  margin-bottom: 60px;
+} */
+
+.tracker__section h3,
+.article__section h3,
+.livereport__section h3,
+.read__more__section h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 53px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.tracker__section h3::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 921px;
+  right: 0;
+  top: 50%;
+  transform: translateY(50%);
+  background: #c7c7c7;
+}
+
+.article__section h3::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 972px;
+  right: 0;
+  top: 50%;
+  transform: translateY(50%);
+  background: #c7c7c7;
+}
+.livereport__section h3::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 999px;
+  right: 0;
+  top: 50%;
+  transform: translateY(50%);
+  background: #c7c7c7;
+}
+
+.read__more__section h3::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 467px;
+  right: 0;
+  top: 50%;
+  transform: translateY(50%);
+  background: #c7c7c7;
+}
+
+.tracker__section .approbe__box span::before {
+  height: 4px;
+  width: 28px;
+}
+
+.arrow__btn a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #3560ad;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.arrow__btn a img {
+  margin-left: 15px;
+}
+
+.article__box img {
+  width: 100%;
+}
+.gender:hover::placeholder {
+  color: white !important;
+}
+.gender_active::placeholder {
+  color: white !important;
+}
+
+/* =====responsive 1st===== */
+@media screen and (max-width: 1439px) {
+  .tracker__section h3::after,
+  .article__section h3::after,
+  .livereport__section h3::after {
+    width: 465px;
+  }
+
+  .report__box a {
+    max-width: 493px;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .live__box {
+    min-height: 306px;
+  }
+
+  .live__box a {
+    max-width: 306px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .tracker__section h3::after,
+  .article__section h3::after,
+  .livereport__section h3::after {
+    width: 388px;
+  }
+  .read__more__section h3::after {
+    width: 168px;
+  }
+
+  .report__box a {
+    max-width: 406px;
+  }
+
+  .live__box a {
+    max-width: 244px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .report__box {
+    min-height: 347px;
+  }
+
+  .report__box a {
+    /* position: unset;
+      transform: unset;
+      display: block;
+      margin-top: 20px; */
+    max-width: 287px;
+    /* bottom: 0; */
+  }
+
+  .tracker__section h3::after,
+  .article__section h3::after,
+  .livereport__section h3::after {
+    width: 258px;
+  }
+  .read__more__section h3::after {
+    width: 158px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .report__boxes .row {
+    flex-direction: column-reverse;
+  }
+  .report__box {
+    min-height: unset;
+  }
+
+  .report__box a,
+  .live__box a {
+    position: unset;
+    transform: unset;
+    display: block;
+    width: 100%;
+    max-width: unset;
+    margin-top: 20px;
+  }
+
+  .live__box {
+    min-height: unset;
+  }
+
+  .tracker__section h3::after,
+  .article__section h3::after,
+  .livereport__section h3::after {
+    width: 248px;
+  }
+  .read__more__section h3::after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .heading__list {
+    margin: 35px 0;
+  }
+  .list__inner ul li {
+    margin-right: 76px;
+  }
+  .list__inner ul li {
+    font-size: 16px;
+  }
+  .politics .content h3 {
+    font-size: 28px;
+  }
+
+  .tracker__section h3::after,
+  .article__section h3::after,
+  .livereport__section h3::after {
+    /* display: none; */
+    width: 175px;
+  }
+}
+/* =====responsive 1st===== */
+
+/* ==============================
+  About page start here
+=================================*/
+.about__section {
+  margin: 120px 0 100px;
+}
+
+.custom__container {
+  width: 100%;
+  max-width: 846px;
+}
+
+.about__inner .about__box:nth-child(3) img,
+.about__inner .about__box:nth-child(5) img,
+.about__inner .about__box:nth-child(6) img {
+  display: none;
+}
+
+.about__inner h2,
+.news__inner h2 {
+  font-size: 54px;
+  line-height: 70px;
+  font-weight: 700;
+}
+
+.about__inner h4,
+.news__inner h4 {
+  font-size: 33px;
+  line-height: 44px;
+  margin-bottom: 15px;
+  color: #3560ad;
+  font-weight: 700;
+}
+
+.about__inner p,
+.news__inner p {
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.about__inner img,
+.news__inner img {
+  width: 100%;
+  max-height: 400px;
+}
+/* ==============================
+  About page end here
+=================================*/
+
+/* ==============================
+  news page start here
+=================================*/
+.news__box h4 {
+  color: #3560ad;
+}
+
+/* .news__inner .news__box:nth-child(1) img{
+  display: none;
+} */
+
+.news__inner span {
+  color: #808da5;
+  font-size: 20px;
+  line-height: 34px;
+  /* font-family: italic; */
+}
+
+.news__box img {
+  margin-bottom: 15px;
+}
+
+/* ==============================
+  news page start here
+=================================*/
+
+/* header section */
+
+.menu a:active {
+  background-color: transparent;
+  color: #808da5;
+}
+.nav_parent {
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08),
+    0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+  position: relative;
+}
+.nav_drop {
+  background-color: white;
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08),
+    0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+}
+.navbar-start {
+  width: 30%;
+}
+/* .menu a {
+  font-size: 16px;
+} */
+#eng {
+  font-size: 14px;
+  font-weight: 700;
+}
+.eng_select, .option{
+  font-weight: 400;
+font-size: 16px;
+  color: #808DA5 !important;
+}
+.login_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #080a0e;
+  border-radius: 50px;
+  background-color: white;
+  /* padding: 0 14px; */
+  height: 32px !important;
+  width: 92px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #3560ad;
+}
+.login_btn:hover {
+  display: flex;
+  align-items: center;
+  border: 1px solid #3560ad;
+  border-radius: 50px;
+  background-color: #3560ad;
+  height: 32px !important;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+  transition: 0.3s;
+}
+.signup_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: #3560ad;
+  height: 32px !important;
+  width: 102px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+}
+.signup_btn:hover {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #062a6c;
+  height: 32px !important;
+  width: 102px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+}
+.back_btn{
+  font-weight: 700;
+font-size: 18px;
+color: #3560AD;
+}
+.con_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  height: 44px;
+  width: 161px;
+  background-color:  #3560AD;
+  color: white;
+  font-weight: 700;
+font-size: 18px;
+}
+
+/* crime report part 1st page */
+
+/* crime banner section */
+.gradient_bg {
+  background-image: radial-gradient(
+    100% 100% at 50% 0%,
+    #ef4634 0%,
+    #3560ad 100%
+  );
+  border: 0.5px solid #c7c7c7;
+  /* height: 100vh;
+  overflow-y: scroll !important; */
+}
+.crime_banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 36px 25px;
+  color: #ffffff;
+  text-align: center;
+}
+.crime_banner h1 {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 60px;
+}
+.crime_banner p {
+  margin: 18px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+.crime_banner button {
+  background: #ffffff;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #3560ad;
+  padding: 10px 25px;
+  border: none;
+}
+
+/* crime card section */
+
+.crime_card {
+  background-color: #3560ad;
+  padding: 55px 35px;
+  color: #ffffff;
+}
+.crime_card h5 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 18px;
+  height: 108px;
+  width: 219px;
+}
+.crime_card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/* Information we cannot process section */
+
+.crime_info {
+  background-color: #808da5;
+  padding-top: 80px;
+  padding-bottom: 87px;
+}
+.crime_info h2 {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 60px;
+  margin-bottom: 21px;
+}
+.crime_info p {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 43px;
+}
+#cancel {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0;
+}
+.crime_info_btn {
+  background: #3560ad;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #ffffff;
+  padding: 10px 25px;
+  border: none;
+  margin: 50px auto 100px;
+}
+.crime_info_btn:hover {
+  background: #3560ad;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #ffffff;
+  padding: 10px 25px;
+  border: none;
+  margin: 50px auto 100px;
+}
+.crime_banner_info_btn {
+  display: block;
+  background: white;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #3560ad;
+  padding: 10px 25px;
+  border: none;
+  /* margin: 50px auto 100px; */
+}
+.crime_banner_info_btn:hover {
+  display: block;
+  background: white;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #3560ad;
+  padding: 10px 25px;
+  border: none;
+  /* margin: 50px auto 100px; */
+}
+
+.english {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+}
+.checkbox_content {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+}
+.qus {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 31px;
+}
+.select,
+.input {
+  border-radius: 50px !important;
+}
+.label {
+  align-items: stretch;
+}
+.input_btn {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+.checkbox {
+  border-width: 3px;
+  border-radius: 5px;
+}
+.keep_content {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+}
+.keep_card {
+  min-height: 155px;
+  margin-bottom: 31px;
+}
+.keep_card_content {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+}
+.terms h1 {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 70px;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+.terms h6 {
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 43px;
+  color: #3560ad;
+  margin-bottom: 15px;
+}
+.terms p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  margin-bottom: 40px;
+}
+/* footer section */
+.footer {
+  background-color: #3560ad;
+  padding: 40px 0;
+}
+.footer h6 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+.footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+.footer_hr{
+  border: 0.5px solid #C7C7C7;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.crime_tab a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  width: 33.33%;
+  height: 96px;
+  /* identical to box height */
+
+  text-align: center;
+}
+.p_tag {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/* mohiiiiiiiiiiiii */
+#search {
+  border-radius: 7px !important;
+  background-image: url("../public/icon/search.png");
+  background-repeat: no-repeat;
+  background-position: right 3% center;
+}
+.parent_class {
+  position: relative;
+}
+
+ul.childClass {
+  position: absolute;
+  background: #fff;
+  width: 265px;
+  padding: 33px 37px;
+  display: none;
+  top: 0;
+
+  transition: 0.3s;
+  z-index: 10;
+}
+
+ul.childClass li {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.parent_class:hover .childClass {
+  display: block;
+}
+
+.quiz {
+  transition: 5s ease-in-out;
+}
+.vote_checkbox {
+  border: 0;
+  background-color: #c7c7c7;
+  border-radius: 50%;
+}
+.progress-box .progress-line {
+  width: 100%;
+  margin-top: 10px;
+}
+.progress-box .progress-line .progress-container {
+  background-color: #b1b1b1;
+  height: 4px;
+  margin-top: 15px;
+}
+
+.progress-primary{
+ 
+  transition: all 1.5s;
+}
+.progress-box .progress-line .progress-container .progress-bar {
+  height: 100%;
+  width: 0%;
+  background-color: #3560ad;
+  position: relative;
+  transition: all 1.5s;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .navbar-start {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .menu.menu-compact {
+    width: 100vw;
+    height: 100vh;
+    /* margin-top: 28px; */
+  }
+  .dropdown .dropdown-content {
+    top: 0;
+  }
+  .dropdown {
+    position: inherit !important;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sign_up {
+    background-color: #ef4634 !important;
+  }
+  .politics__section {
+    margin: 50px 15px;
+  }
+  .about__section {
+    margin: 50px 35px 80px;
+  }
+  .crime_card_section {
+    margin: 80px 15px;
+  }
+  .crime_info {
+    padding: 80px 30px;
+  }
+  .crime_info h2 {
+    font-size: 40px;
+  }
+  .crime_info p {
+    font-size: 20px;
+  }
+  .crime_english_section {
+    margin: 50px 15px;
+  }
+  .crime_english_section .form-control {
+    padding: 89px 20px;
+  }
+  .section__gap {
+    margin: 50px 15px;
+  }
+  .footer {
+    padding: 40px 30px;
+  }
+  .news__inner h2 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .crime_tab a {
+    width: 100% !important;
+    font-size: 16px;
+    line-height: 21px;
+    height: 32px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .news__inner h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
