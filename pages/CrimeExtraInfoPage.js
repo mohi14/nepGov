@@ -8,8 +8,8 @@ import SubFooter from "../components/shared/SubFooter";
 
 const CrimeExtraInfoPage = () => {
   return (
-    <div>
-      <Header />
+    <>
+      {/* <Header /> */}
       <div className="gradient_bg px-[15px] py-[50px] lg:p-0">
         <CrimeTab number={3} />
         <Vehicle />
@@ -17,7 +17,7 @@ const CrimeExtraInfoPage = () => {
         <KeepContact />
         <SubFooter />
       </div>
-    </div>
+    </>
   );
 };
 

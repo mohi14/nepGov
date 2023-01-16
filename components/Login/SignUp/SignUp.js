@@ -114,29 +114,6 @@ const SignUp = () => {
                   )}
                 </div>
 
-                {/* <div class="flex items-center mb-[40px]">
-                  <input
-                    onChange={handleChange}
-                    id="link-checkbox"
-                    type=" checkbox"
-                    class=" checkbox checkbox-error "
-                  />
-                  <label
-                    for="link-checkbox"
-                    class="ml-2 text-[16px] font-[400] "
-                  >
-                    I agree to the{" "}
-                    <Link href="termsAndConditionPage" class=" underline">
-                      Terms and Conditions,
-                    </Link>{" "}
-                    and acknowledge the{" "}
-                    <Link className="underline" href="privacyPolicyPage">
-                      {" "}
-                      privacy notice.{" "}
-                    </Link>
-                  </label>
-                </div> */}
-
                 <label
                   for="link-checkbox"
                   class="cursor-pointer label justify-start gap-[21px]"
@@ -282,7 +259,8 @@ const SignUp = () => {
                         required: "Gender is Required",
                       })}
                       className={`cursor-pointer gender text-center text-[#808DA5] h-[44px] hover:bg-orange-600 hover:text-white hover:border-0 duration-300 ease-in rounded-[50px] w-full  border border-[#808DA5] ${
-                        gender === "male" && "bg-orange-600 border-0 gender_active"
+                        gender === "male" &&
+                        "bg-orange-600 border-0 gender_active"
                       }`}
                       readOnly
                       value={gender}

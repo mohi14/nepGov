@@ -6,7 +6,7 @@ import SubFooter from '../components/shared/SubFooter';
 const crimeEnglishChangePage = () => {
     return (
         <div className='gradient_bg '>
-            <Header/>
+            {/* <Header/> */}
             <EnglishChange/>
             <SubFooter/>
         </div>

@@ -5,11 +5,11 @@ import CookiesPolicy from "../components/TermsAndCondition/CookiesPolicy";
 
 const cookiesPolicyPage = () => {
   return (
-    <div>
+    <>
       <Header />
       <CookiesPolicy />
       <Footer />
-    </div>
+    </>
   );
 };
 
