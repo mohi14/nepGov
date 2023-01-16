@@ -46,7 +46,7 @@ const AuthProvider = ({ children }) => {
       }
       setActiveQuestion(activeQuestion + 1);
       setQ(newQuestions);
-    }, 1500);
+    }, 1000);
   };
   // const value = {
   //   handleYes,
