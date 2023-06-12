@@ -1,4 +1,6 @@
-import React, { useContext, useState } from "react";
+import { useRouter } from "next/router";
+import React, { useContext, useEffect, useState } from "react";
+import { Navigate, useNavigate } from "react-router-dom";
 import { AuthContext } from "../ContextAPI/AuthProvider";
 import { QuestionContext } from "../Contexts/ContextsProvider";
 import QuestionOne from "./QuestionOne";
@@ -31,6 +33,12 @@ const Voting = () => {
   //   }, 1500);
   // };
 
+  // const navigate = useNavigate();
+
+
+  if (q.length === 0) {
+    handleYes();
+  }
   return (
     <div className="pt-20 background ">
       <div className="p-3 lg:p-0 mx-auto">

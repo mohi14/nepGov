@@ -4,10 +4,10 @@ import { AuthContext } from "../ContextAPI/AuthProvider";
 import { QuestionContext } from "../Contexts/ContextsProvider";
 
 const Banner = () => {
-  const { handleYes } = useContext(AuthContext);
+  const { handleYes, handleVoteNow } = useContext(AuthContext);
 
   const onMarked = () => {
-    handleYes();
+    handleVoteNow();
     console.log("gg");
   };
   const reportComp = [

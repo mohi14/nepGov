@@ -7,32 +7,6 @@ import Image from "next/image";
 import visibility from "../../public/icon/visibility.png";
 
 const Login = () => {
-  // const { userData, setUserData } = useContext(AuthContext)
-  // const { register, handleSubmit, reset, formState: { errors } } = useForm()
-  // const [errorPassword, setPasswordError] = useState("")
-  // const navigate = useNavigate()
-
-  // function playSound() {
-  //     const audio = new Audio('https://cdn.pixabay.com/download/audio/2021/08/04/audio_0625c1539c.mp3?filename=success-1-6297.mp3%27');
-  //     audio.play();
-  // }
-
-  // const handleLogin = (data) => {
-  //     if (userData === null) {
-  //         alert('Please Singup')
-  //         return;
-  //     }
-  //     if (data.email === userData.email && data.password === userData.password) {
-  //         alert('User Login Successfull')
-  //         reset()
-  //         playSound()
-  //         navigate('/my-profile')
-  //     }
-  //     else {
-  //         alert('User Login Error')
-  //         setPasswordError('User Email password Error')
-  //     }
-  // }
   return (
     <div className="max-w-[441px] mx-auto bg-white shadow shadow-gray-200 mb-[301px]">
       <div className="flex justify-end  pt-[15px] pr-[15px]">

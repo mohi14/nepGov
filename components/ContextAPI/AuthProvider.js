@@ -48,6 +48,38 @@ const AuthProvider = ({ children }) => {
       setQ(newQuestions);
     }, 1000);
   };
+
+  const handleVoteNow = () => {
+    const allQuestions = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    const newQuestions = [];
+    if (q.length === 0) {
+      setTimeout(() => {
+        for (let i = 0; i < activeQuestion; i++) {
+          const n = allQuestions[i];
+          console.log(n);
+          if (n !== undefined) {
+            newQuestions.push(n);
+          }
+        }
+        setActiveQuestion(activeQuestion + 1);
+        setQ(newQuestions);
+      }, 1000);
+    } else {
+      setQ([]);
+
+      // setTimeout(() => {
+      //   for (let i = 0; i < activeQuestion; i++) {
+      //     const n = allQuestions[i];
+      //     console.log(n);
+      //     if (n !== undefined) {
+      //       newQuestions.push(n);
+      //     }
+      //   }
+      //   setActiveQuestion(activeQuestion + 1);
+      //   setQ(newQuestions);
+      // }, 1000);
+    }
+  };
   // const value = {
   //   handleYes,
   //   q,
@@ -62,6 +94,7 @@ const AuthProvider = ({ children }) => {
     q,
     isSelected,
     setIsSelected,
+    handleVoteNow,
   };
   return (
     <AuthContext.Provider value={authInfo}>{children}</AuthContext.Provider>
